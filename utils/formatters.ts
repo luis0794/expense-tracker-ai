@@ -14,7 +14,7 @@ export const formatDate = (dateString: string): string => {
   const date = new Date(dateString);
 
   try {
-    return new Intl.DateFormat('en-US', {
+    return new Intl.DateTimeFormat('en-US', {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
