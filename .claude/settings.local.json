@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "test1",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
